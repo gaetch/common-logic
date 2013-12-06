@@ -5,10 +5,5 @@ package fr.gaetch.person;
  * 
  * @author gaetch
  */
-public class NaturalPerson extends LegalPerson {
-	@Override
-	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+public abstract class NaturalPerson extends LegalPerson {
 }

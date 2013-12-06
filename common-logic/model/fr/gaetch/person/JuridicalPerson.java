@@ -5,7 +5,7 @@ package fr.gaetch.person;
  * 
  * @author gaetch
  */
-public class JuridicalPerson extends LegalPerson {
+public abstract class JuridicalPerson extends LegalPerson {
 	private String legalName;
 
 	public JuridicalPerson(String legalName) {
